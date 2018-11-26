@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import axios from "axios";
+import MealCard from "./components/MealCard";
 import "./App.css";
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meal: ""
+      meal: {}
     };
   }
   componentDidMount() {
@@ -23,7 +25,10 @@ class App extends Component {
       });
   }
   render() {
-    return <div className="App" />;
+    var data = this.state.meal;
+    return (
+      <div className="App">{data.length > 0 && <MealCard meals={data} />}</div>
+    );
   }
 }
 
