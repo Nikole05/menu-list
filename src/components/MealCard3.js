@@ -11,7 +11,6 @@ export default class MealCard3 extends Component {
   }
 
   render() {
-    let btn_class = this.state.black ? "blackButton" : "whiteButton";
     console.log("PROPS=>", this.props);
     return (
       <div>
@@ -21,33 +20,28 @@ export default class MealCard3 extends Component {
             <div class="col col-sm-6 col-md-4">
               <h4>Drinks</h4>
               <ul>
-                <li>pepsi</li>
-                <li>sampanie</li>
-                <li>vin</li>
+                <li>Pepsi</li>
+                <li>Champagne</li>
+                <li>Wine</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
             <div class="col col-sm-6 col-md-4">
               <h4>Desert</h4>
               <ul>
-                <li>prajituri/biscuiti</li>
-                <li>gogosi</li>
-                <li>inghetata</li>
+                <li>Cookies / biscuits</li>
+                <li>Pie</li>
+                <li>Ice cream</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
             <div class="col col-sm-6 col-md-4">
               <h4>Solid food</h4>
               <ul>
-                <li>piftie</li>
-                <li>salata beof</li>
-                <li>toba</li>
-                <li>friptura cratita</li>
-                <li>carnati</li>
-                <li>musaca</li>
-                <li>legume la cuptor</li>
+                <li>Jelly</li>
+                <li>Boeuf salad</li>
+                <li>Roast steak</li>
+                <li>Sausages</li>
+                <li>Moussaka</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
           </div>
         </div>

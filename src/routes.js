@@ -25,7 +25,7 @@ const AppRouter = () => (
             </div>
             <div class="col col-sm-6 col-md-4">
               <Link to="/mealcard-2/">
-                Christmos day!
+              Christmas day!
                 <img src="/imag/Craciunul.jpg" alt="craciun" />
               </Link>
             </div>

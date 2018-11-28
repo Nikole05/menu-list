@@ -20,32 +20,24 @@ export default class MealCard extends Component {
             <div class="col col-sm-6 col-md-4">
               <h4>Drinks</h4>
               <ul>
-                <li>fanta</li>
-                <li>suc portocale</li>
-                <li>vin</li>
-                <li>bere</li>
+                <li>Fanta</li>
+                <li>Beer</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
             <div class="col col-sm-6 col-md-4">
               <h4>Desert</h4>
               <ul>
-                <li>turta dulce</li>
-                <li>bomboane lichior</li>
-                <li>cremsnit</li>
-                <li>jeleuri</li>
+                <li>Gingerbread</li>
+                <li>Candy with liquor</li>
+                <li>Cremeschnitte</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
             <div class="col col-sm-6 col-md-4">
               <h4>Solid food</h4>
               <ul>
-                <li>carnati</li>
-                <li>chiftele</li>
-                <li>piure</li>
-                <li>cartofi prajiti</li>
+                <li>Meatballs</li>
+                <li>Fries</li>
               </ul>
-              <input class="btn btn-primary" type="reset" value="Change" />
             </div>
           </div>
         </div>

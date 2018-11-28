@@ -1,14 +1,13 @@
 body {
   font-family: fantasy;
-    font-weight: 100;
+    font-weight: 200px;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 60px;
-    /*background-image: url('../images/68411523-bonfire-wallpapers\ \(1\).jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(250, 250, 250);
-    background-color: rgb(126, 141, 99);
+    color: rgb(128, 30, 30);
+    background-color: rgb(228, 224, 214);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,6 +34,7 @@ img {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     margin: 20px auto;
+    margin-bottom: 40px;
 }
 .b {
   text-align: center;
@@ -42,6 +42,7 @@ img {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     margin: 20px auto;
+    margin-bottom: 40px;
 }
 .c {
 text-align: center;
@@ -49,8 +50,32 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     margin: 20px auto;
+    margin-bottom: 40px;
 }
-input {
-  margin-top: auto;
-  margin-bottom: 10px;
+h1,h2 {
+  font-size: 42px;
+  font-style: oblique;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-style: oblique;
+  font-size: 37px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: black;
+}
+li{
+  font-size: 22px;
+}
+a{
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  font-style: oblique;
+  color: green;
 }
