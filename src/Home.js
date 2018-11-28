@@ -9,23 +9,13 @@ export default class App extends Component {
     super(props);
 
     this.state = {
-      meal: {}
+      meal: []
     }
   }
 
   componentDidMount() {
-    const Home = "";
 
-    axios.get(Home)
-      .then(res => {
-        const meal = res.data.meals;
-        if (typeof meal === "object") {
-          this.setState({ meal });
-        }
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    
 
   }
 
@@ -33,7 +23,7 @@ export default class App extends Component {
     var data = this.state.meal;
     return (
       <AppContainer className="App">
-      {data.length > 0 && <MealCard meals={data} />}
+          <MealCard />
       </AppContainer>
     );
   }
