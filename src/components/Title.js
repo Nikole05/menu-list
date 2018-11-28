@@ -5,7 +5,13 @@ export default class Title extends Component {
   render() {
       console.log("PROPS=>", this.props);
     return(
+      <div>
         <Header>{this.props.title}</Header>
+        <title>Holliday's menus!</title>
+        <h2>St. Nicolas day!</h2>
+        <h2>Christmos day!</h2>
+        <h2>The new year!</h2>
+        </div>
     )
   }
 }
